@@ -10,7 +10,6 @@ A comprehensive security scanning suite for WordPress websites, combining tradit
 - **Advanced Security**:
     - Honeypot Detection & Social Engineering Analysis
     - Quantum-Resistant Security Assessment
-    - WiFi/Access Point Scanning
 - **Reporting**: Generates detailed JSON reports and console output.
 
 ## Installation
