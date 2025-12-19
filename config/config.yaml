@@ -1,0 +1,51 @@
+# Web Scanner v2.0 Configuration
+
+# General Settings
+general:
+  user_agent: "UnifiedWebScanner/2.0"
+  timeout: 30
+  max_threads: 5
+  verify_ssl: true
+
+# Scanner Settings
+scanners:
+  wordpress:
+    enabled: true
+    port_scan: true
+    user_enumeration: true
+    brute_force_check: true
+  
+  comprehensive:
+    enabled: true
+    sql_injection: true
+    xss: true
+    traversal: true
+    honeypot: true
+
+# Module Settings
+modules:
+  metasploit:
+    enabled: false
+    host: "127.0.0.1"
+    port: 55553
+    ssl: true
+    username: "msf"
+    password: "password"
+    mode: "conservative" # conservative, moderate, advanced
+
+  threat_intel:
+    enabled: false
+    nvd_api_key: ""
+    wpscan_api_key: ""
+    hibp_api_key: ""
+
+  api_security:
+    enabled: false
+
+  osint:
+    enabled: false
+
+# Reporting
+reporting:
+  output_dir: "reports"
+  format: "json" # json, html, pdf
