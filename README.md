@@ -50,6 +50,10 @@ A comprehensive security scanning suite for WordPress websites, combining tradit
  ./venv/bin/python3 verify_phase1.py
  ```
  
- ## Disclaimer
+ ## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
  
- **Authorized Testing Only**: This tool is for educational and security assessment purposes only. Ensure you have explicit authorization before scanning any target.
+**Authorized Testing Only**: This tool is for educational and security assessment purposes only. Ensure you have explicit authorization before scanning any target.
